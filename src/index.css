@@ -129,7 +129,7 @@ nav {
 
 .logo {
   height: 40px;
-  filter: brightness(0) invert(1); /* Ensure it's white if it's black */
+  filter: invert(1); /* Fills black to white and white to black */
 }
 
 /* Social Icons */
