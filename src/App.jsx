@@ -166,9 +166,9 @@ const Socials = ({ t, lang }) => (
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{t('social_title')}</h2>
           <p style={{ opacity: 0.6, maxWidth: '500px', margin: '0 auto 2rem' }}>{t('social_desc')}</p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
-            <a href="#" className="social-icon"><Instagram size={28} /></a>
-            <a href="#" className="social-icon"><Linkedin size={28} /></a>
-            <a href="#" className="social-icon"><Twitter size={28} /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon"><Instagram size={28} /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon"><Linkedin size={28} /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon"><Twitter size={28} /></a>
           </div>
         </motion.div>
       </AnimatePresence>
